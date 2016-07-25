@@ -1,4 +1,7 @@
 # MongoDbServiceProvider
+
+[![Software License][ico-license]](LICENSE.md)
+
 It's a MongoDbServiceProvider that's using the new Mongo Db library and extension (ie:`ext-mongodb`) for PHP 5.x, PHP 7.x and HHVM.
 
 ## Motivation
@@ -12,3 +15,5 @@ This Service Provider use the recommend PHP library for MongoDb, too. You can re
 
 ## License
 The MIT License (MIT). Please see [License File](https://github.com/marcusesa/MongoDbServiceProvider/blob/master/LICENSE) for more information.
+
+[ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
