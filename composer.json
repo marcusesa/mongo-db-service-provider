@@ -1,0 +1,32 @@
+{
+    "name": "marcussa/mongo-db-service-provider",
+    "type": "library",
+    "description": "It's a MongoDbServiceProvider that's using the new MongoDb library and extension (ie:ext-mongodb) for PHP and HHVM.",
+    "keywords": [
+        "Mongo",
+        "mongodb",
+        "silex",
+        "MondoDbServiceProvider"
+    ],
+    "homepage": "https://github.com/marcusesa/mongo-db-service-provider",
+    "license": "MIT",    
+    "authors": [
+        {
+            "name": "Marcus Sá",
+            "email": "marcusesa@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : "~5.5|~7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MarcusSa\\MongoDbServiceProvider\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MarcusSa\\MongoDbServiceProvider\\": "tests"
+        }
+    }
+}
